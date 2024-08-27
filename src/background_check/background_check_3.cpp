@@ -16,10 +16,9 @@ int main(int argc, char* argv[]) {
     "Have you lived abroad?", 
     "Where did you go to high school?"
   };
-  
   std::vector<std::string> answers;
   std::string answer;
-
+  
   for(std::string question : questions) {
     prompt(question, answers);
   }
