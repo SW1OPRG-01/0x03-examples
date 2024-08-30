@@ -38,29 +38,29 @@
       "MIMode": "gdb",
       "preLaunchTask": "build_background_check_3"
     }, {
-      "name": "Build 'scoping'",
+      "name": "Build 'scope-global'",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/scoping.out",
+      "program": "${workspaceFolder}/build/scope-global.out",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
       "environment": [],
       "externalConsole": false,
       "MIMode": "gdb",
-      "preLaunchTask": "build_scoping"
+      "preLaunchTask": "build_scope_global"
     }, {
-      "name": "Build 'block-scoping'",
+      "name": "Build 'scope-block'",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/block-scoping.out",
+      "program": "${workspaceFolder}/build/scope-block.out",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
       "environment": [],
       "externalConsole": false,
       "MIMode": "gdb",
-      "preLaunchTask": "build_block_scoping"
+      "preLaunchTask": "build_scope_block"
     }
   ]
 }

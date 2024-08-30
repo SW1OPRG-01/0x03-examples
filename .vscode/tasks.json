@@ -44,28 +44,29 @@
         "$gcc"
       ],
     }, {
-      "label": "build_scoping",
+      "label": "build_scope_global",
       "type": "shell",
       "command": "g++",
       "args": [
         "-g",
-        "${workspaceFolder}/src/scoping/*.cpp",
+        "${workspaceFolder}/src/scoping/print.cpp",
+        "${workspaceFolder}/src/scoping/scope-global.cpp",
         "-o",
-        "${workspaceFolder}/build/scoping.out"
+        "${workspaceFolder}/build/scope-global.out"
       ],
       "group": "build",
       "problemMatcher": [
         "$gcc"
       ],
     }, {
-      "label": "build_block_scoping",
+      "label": "build_scope_block",
       "type": "shell",
       "command": "g++",
       "args": [
         "-g",
-        "${workspaceFolder}/src/block-scope.cpp",
+        "${workspaceFolder}/src/scoping/scope-block.cpp",
         "-o",
-        "${workspaceFolder}/build/block-scoping.out"
+        "${workspaceFolder}/build/scope-block.out"
       ],
       "group": "build",
       "problemMatcher": [
