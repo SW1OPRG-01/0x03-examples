@@ -57,6 +57,20 @@
       "problemMatcher": [
         "$gcc"
       ],
+    }, {
+      "label": "build_block_scoping",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "${workspaceFolder}/src/block-scope.cpp",
+        "-o",
+        "${workspaceFolder}/build/block-scoping.out"
+      ],
+      "group": "build",
+      "problemMatcher": [
+        "$gcc"
+      ],
     },
   ]
 }
