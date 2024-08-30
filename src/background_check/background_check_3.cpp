@@ -11,10 +11,10 @@ void prompt(std::string question, std::vector<std::string>& answers) {
 
 int main(int argc, char* argv[]) {
   std::vector<std::string> questions = {
-    "What is your name?", 
-    "Where were you last employed?", 
-    "Have you lived abroad?", 
-    "Where did you go to high school?"
+    "What is your name? ", 
+    "Where were you last employed? ", 
+    "Have you lived abroad? ", 
+    "Where did you go to high school? "
   };
   std::vector<std::string> answers;
   std::string answer;

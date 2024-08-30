@@ -12,7 +12,31 @@
       "environment": [],
       "externalConsole": false,
       "MIMode": "gdb",
-      "preLaunchTask": "build_background_check_1",
-    },
+      "preLaunchTask": "build_background_check_1"
+    }, {
+      "name": "Build 'background_check_2'",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/background_check_2.out",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "build_background_check_2"
+    }, {
+      "name": "Build 'background_check_3'",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/background_check_3.out",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "build_background_check_3"
+    }
   ]
 }

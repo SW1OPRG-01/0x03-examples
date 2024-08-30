@@ -13,10 +13,10 @@ int main(int argc, char* argv[]) {
   std::vector<std::string> answers;
   std::string answer;
 
-  question("What is your name?", answers);
-  question("Where were you last employed?", answers);
-  question("Have you lived abroad?", answers);
-  question("Where did you go to high school?", answers);
+  question("What is your name? ", answers);
+  question("Where were you last employed? ", answers);
+  question("Have you lived abroad? ", answers);
+  question("Where did you go to high school? ", answers);
 
   return 0;
 }
