@@ -1,21 +1,20 @@
 {
   "version": "2.0.0",
   "tasks": [
-    {
-      "label": "build_all",
+{
+      "label": "build_background_check_1",
       "type": "shell",
       "command": "g++",
       "args": [
         "-g",
-        "${workspaceFolder}/src/*.cpp",
+        "${workspaceFolder}/src/background_check/background_check_1.cpp",
         "-o",
-        "${workspaceFolder}/build/program.out"
+        "${workspaceFolder}/build/background_check_1.out"
       ],
       "group": "build",
       "problemMatcher": [
         "$gcc"
       ],
-      "detail": "Generated task for compiling and linking all C++ files in the src folder."
     },
   ]
 }
