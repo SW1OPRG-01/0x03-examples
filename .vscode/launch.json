@@ -37,6 +37,18 @@
       "externalConsole": false,
       "MIMode": "gdb",
       "preLaunchTask": "build_background_check_3"
+    }, {
+      "name": "Build 'scoping'",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/scoping.out",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "build_scoping"
     }
   ]
 }

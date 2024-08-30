@@ -43,6 +43,20 @@
       "problemMatcher": [
         "$gcc"
       ],
+    }, {
+      "label": "build_scoping",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "${workspaceFolder}/src/scoping/*.cpp",
+        "-o",
+        "${workspaceFolder}/build/scoping.out"
+      ],
+      "group": "build",
+      "problemMatcher": [
+        "$gcc"
+      ],
     },
   ]
 }
