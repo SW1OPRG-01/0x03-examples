@@ -72,6 +72,20 @@
       "problemMatcher": [
         "$gcc"
       ],
-    },
+    }, {
+      "label": "build_scope_function",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "${workspaceFolder}/src/scoping/scope-function.cpp",
+        "-o",
+        "${workspaceFolder}/build/scope-function.out"
+      ],
+      "group": "build",
+      "problemMatcher": [
+        "$gcc"
+      ],
+    }
   ]
 }

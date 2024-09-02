@@ -61,6 +61,18 @@
       "externalConsole": false,
       "MIMode": "gdb",
       "preLaunchTask": "build_scope_block"
+    }, {
+      "name": "Build 'scope-function'",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/scope-function.out",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "build_scope_function"
     }
   ]
 }
