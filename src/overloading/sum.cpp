@@ -9,9 +9,17 @@ double sum(double a, double b) {
 }
 
 int sum(std::vector<int> values) {
-  return 0;
+  int result = 0;
+  for(int value : values) {
+    result += value;
+  }
+  return result;
 }
 
 double sum(std::vector<double> values) {
-  return 0;
+  double result = 0;
+  for(double value : values) {
+    result += value;
+  }
+  return result;
 }
