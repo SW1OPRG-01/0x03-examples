@@ -86,6 +86,20 @@
       "problemMatcher": [
         "$gcc"
       ],
+    }, {
+      "label": "build_function_overloading",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "${fileDirname}/*.cpp",
+        "-o",
+        "${workspaceFolder}/build/function-overloading.out"
+      ],
+      "group": "build",
+      "problemMatcher": [
+        "$gcc"
+      ],
     }
   ]
 }

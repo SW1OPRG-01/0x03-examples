@@ -73,6 +73,18 @@
       "externalConsole": false,
       "MIMode": "gdb",
       "preLaunchTask": "build_scope_function"
+    }, {
+      "name": "Build 'function-overloading'",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/function-overloading.out",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "build_function_overloading"
     }
   ]
 }
