@@ -58,6 +58,20 @@
         "$gcc"
       ],
     }, {
+      "label": "build_background_check_5",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "${workspaceFolder}/src/background_check/background_check_5/*.cpp",
+        "-o",
+        "${workspaceFolder}/build/background_check_5.out"
+      ],
+      "group": "build",
+      "problemMatcher": [
+        "$gcc"
+      ],
+    }, {
       "label": "build_scope_global",
       "type": "shell",
       "command": "g++",

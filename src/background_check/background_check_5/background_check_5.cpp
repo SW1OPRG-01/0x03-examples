@@ -11,7 +11,7 @@ int main(int argc, char* argv[]) {
   std::string answer;
   
   for(std::string question : questions) {
-    prompt(question, answers);
+    prompt(question, &answers);
   }
   
   return 0;

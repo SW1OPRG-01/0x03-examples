@@ -50,6 +50,18 @@
       "MIMode": "gdb",
       "preLaunchTask": "build_background_check_4"
     }, {
+      "name": "Build 'background_check_5'",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/background_check_5.out",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "build_background_check_5"
+    }, {
       "name": "Build 'scope-global'",
       "type": "cppdbg",
       "request": "launch",
