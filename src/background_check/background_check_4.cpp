@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 
-void prompt(std::string, std::vector<std::string>& answers);
+void prompt(std::string, std::vector<std::string>&);
 
 int main(int argc, char* argv[]) {
   std::vector<std::string> questions = {

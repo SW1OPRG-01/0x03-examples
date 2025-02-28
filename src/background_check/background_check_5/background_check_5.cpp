@@ -9,6 +9,8 @@ int main(int argc, char* argv[]) {
   };
   std::vector<std::string> answers;
   std::string answer;
+
+  sum(4, 8);
   
   for(std::string question : questions) {
     prompt(question, &answers);
